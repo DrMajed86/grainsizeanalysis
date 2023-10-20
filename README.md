@@ -1,9 +1,9 @@
 # Sediment Grain Size Analysis (Sedimentology lab)
-A simple python script I wrote for sediment grain size analysis used in sieve analysis in sedimentology lab.
+A simple Python script I wrote for sediment grain size analysis used in sieve analysis in the sedimentology lab.
 
 ---
 
-Here is a breif introduction on sediment grain size analysis.
+Here is a brief introduction to sediment grain size analysis.
 
 ---
 
@@ -27,18 +27,33 @@ Here is a breif introduction on sediment grain size analysis.
 
 ## CSV File:
 
-The CSV file consists of two columns: one is for the grain size measured in millimeter (mm), and the other is for the weight of each size in gram (g). The script will convert the size (mm) to the Phi unit. The CSV file should be in same directory as the **GSA.py** script. 
+The CSV file consists of two columns: one is for the grain size measured in millimeters (mm), and the other is for the weight of each size in grams (g). The script will convert the size (mm) to the Phi unit. The CSV file should be in the same directory as the **GSA.py** script. 
 
 
-![Example of the CSV file with data]()
+#### This is an example of working Data for the GSA
+
+| Grain Size (mm) | Weight (g) |
+| :-------------: | :--------: |
+| 2               | 12.31      |
+| 1               | 18.65      |
+| 0.5             | 25.25      |
+| 0.25            | 37.63      |
+| 0.125           | 5.63       |
+| 0.063           | 80.94      |
+| 0.031           | 45.25      |
+
 
 ## Porcess
 
-The script will read the CSV file you provide, and start first with converting the grain size from ***millimeter*** to ***Phi***, second it will calculate the weight percentage for each row, and calculate the cumulcative weight percentage. Once done it will populate a table and print in on screen for you (sorry I did not know how to make it fancy!). 
+The script will read the CSV file you provide, and start first with converting the grain size from ***millimeter*** to ***Phi***, second it will calculate the weight percentage for each row, and calculate the cumulative weight percentage. Once done it will populate a table and print it on screen for you (sorry I did not know how to make it fancy!). 
 
-The final processes involves the script to plot the a ***table***, a ***histogram***, and a ***cumulicative curve***, and then save them as separate ***PDF*** files in the same directory. The also will be saved as ***PDF*** file, but as I mentioned above, it is not fancy, and I will be happy if anyone suggest a way to do so. 
+The final process involves the script to plot the ***table***, a ***histogram***, and a *** cumulative curve***, and then save them as separate ***PDF*** files in the same directory. They also will be saved as ***PDF*** files, but as I mentioned above, it is not fancy, and I will be happy if anyone suggests a way to do so. 
 
+![Example of a printed Table](https://github.com/DrMajed86/grainsizeanalysis/blob/d54c1b3e791d2ab5c2f0580955d6bdc85ade0ab1/grain_size_calculation.jpg)
 
+![Example of a printed Histogram](https://github.com/DrMajed86/grainsizeanalysis/blob/d54c1b3e791d2ab5c2f0580955d6bdc85ade0ab1/grain_size_distribution.jpg)
+
+![Example of a printed Cumulative Curve](https://github.com/DrMajed86/grainsizeanalysis/blob/d54c1b3e791d2ab5c2f0580955d6bdc85ade0ab1/cumulative_grain_size_distribution.jpg)
 
 
 ---
