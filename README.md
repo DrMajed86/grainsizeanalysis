@@ -22,6 +22,28 @@ Here is a breif introduction on sediment grain size analysis.
 
 ---
 
+
+# Instructions
+
+## CSV File:
+
+The CSV file consists of two columns: one is for the grain size measured in millimeter (mm), and the other is for the weight of each size in gram (g). The script will convert the size (mm) to the Phi unit. The CSV file should be in same directory as the **GSA.py** script. 
+
+
+![Example of the CSV file with data]()
+
+## Porcess
+
+The script will read the CSV file you provide, and start first with converting the grain size from ***millimeter*** to ***Phi***, second it will calculate the weight percentage for each row, and calculate the cumulcative weight percentage. Once done it will populate a table and print in on screen for you (sorry I did not know how to make it fancy!). 
+
+The final processes involves the script to plot the a ***table***, a ***histogram***, and a ***cumulicative curve***, and then save them as separate ***PDF*** files in the same directory. The also will be saved as ***PDF*** file, but as I mentioned above, it is not fancy, and I will be happy if anyone suggest a way to do so. 
+
+
+
+
+---
+
+
 # LICENSE
 
 Copyright (c) 2023 Majed Turkistani.
