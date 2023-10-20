@@ -47,7 +47,7 @@ The CSV file consists of two columns: one is for the grain size measured in mill
 
 The script will read the CSV file you provide, and start first with converting the grain size from ***millimeter*** to ***Phi***, second it will calculate the weight percentage for each row, and calculate the cumulative weight percentage. Once done it will populate a table and print it on screen for you (sorry I did not know how to make it fancy!). 
 
-The final process involves the script to plot the ***table***, a ***histogram***, and a *** cumulative curve***, and then save them as separate ***PDF*** files in the same directory. They also will be saved as ***PDF*** files, but as I mentioned above, it is not fancy, and I will be happy if anyone suggests a way to do so. 
+The final process involves the script to plot the ***table***, a ***histogram***, and a ***cumulative curve***, and then save them as separate ***PDF*** files in the same directory. They also will be saved as ***PDF*** files, but as I mentioned above, it is not fancy, and I will be happy if anyone suggests a way to do so. 
 
 ![Example of a printed Table](https://github.com/DrMajed86/grainsizeanalysis/blob/d54c1b3e791d2ab5c2f0580955d6bdc85ade0ab1/grain_size_calculation.jpg)
 
